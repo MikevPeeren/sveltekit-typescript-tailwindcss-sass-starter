@@ -1,6 +1,6 @@
 {
 	"name": "sveltekit-typescript-tailwindcss-sass-starter",
-	"description": "A SvelteKit typescript tailwindCSS sass starter.",
+	"description": "Use TypeScript, TailwindCSS & Sass to quick start your new SvelteKit app!!",
 	"version": "1.0.0",
 	"author": {
 		"name": "Mike van Peeren",
