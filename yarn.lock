@@ -205,10 +205,10 @@
   dependencies:
     import-meta-resolve "^2.2.0"
 
-"@sveltejs/kit@^1.5.3":
-  version "1.5.3"
-  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.5.3.tgz#f73a8849d2e642e288db6f039cbebd10bc2aabc3"
-  integrity sha512-R0WsMf8yhtU31jiDzaj2zMchCyDsBcSlDFJJ24EzJyOeZ+VJvDLg7YbegvbNU0vfdfRUTWhIrCSaOQ6po+oEVQ==
+"@sveltejs/kit@^1.5.6":
+  version "1.5.6"
+  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.5.6.tgz#3714506b278a2587e2d268500cf1718881a6dd15"
+  integrity sha512-CHVeQpbcwSIUekF6WwevmExKXyfHnzM5nlCEUv13lGgfJ0zKA0ny5YwIe40vccrm5w5Caec7jMTt9Ih3McJr5g==
   dependencies:
     "@sveltejs/vite-plugin-svelte" "^2.0.0"
     "@types/cookie" "^0.5.1"
