@@ -68,7 +68,7 @@
 		"husky": "^8.0.3",
 		"lint-staged": "^13.2.0",
 		"postcss": "^8.4.21",
-		"prettier": "^2.8.5",
+		"prettier": "^2.8.6",
 		"prettier-plugin-svelte": "^2.8.1",
 		"sass": "^1.59.3",
 		"svelte": "^3.57.0",
