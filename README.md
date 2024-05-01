@@ -1,6 +1,6 @@
 # Svelte TypeScript TailwindCSS & Sass Starter
 
-Use TypeScript, TailwindCSS & Sass to quick start your new Svelte and SvelteKit app!!
+Use TypeScript, Vite, TailwindCSS & Sass to quick start your new Svelte and SvelteKit app!!
 
 ## 🧐 What's inside?
 
