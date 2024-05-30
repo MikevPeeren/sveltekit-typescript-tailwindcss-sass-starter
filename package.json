@@ -81,6 +81,6 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@sveltejs/vite-plugin-svelte": "^3.1.0"
+		"@sveltejs/vite-plugin-svelte": "^3.1.1"
 	}
 }
