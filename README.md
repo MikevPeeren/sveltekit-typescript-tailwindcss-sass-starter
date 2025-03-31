@@ -1,55 +1,143 @@
-# Svelte TypeScript TailwindCSS & Sass Starter
+# SvelteKit TypeScript TailwindCSS & Sass Starter
 
-Use TypeScript, Vite, TailwindCSS & Sass to quick start your new Svelte and SvelteKit app!!
+A modern starter template for building web applications with SvelteKit, TypeScript, TailwindCSS, and Sass. This template provides a robust foundation for your next project with best practices and modern tooling.
 
-## 🧐 What's inside?
+## ✨ Why Choose This Starter?
 
-This Starter includes
+- 🚀 **Modern Stack**: Built with the latest versions of SvelteKit, TypeScript, and TailwindCSS
+- 🎨 **Styling Flexibility**: Combine TailwindCSS utilities with Sass for powerful styling
+- 🧪 **Testing Ready**: Includes both E2E and unit testing setup out of the box
+- 📝 **Code Quality**: Pre-configured with ESLint, Prettier, and TypeScript
+- 🔄 **Git Hooks**: Husky and lint-staged ensure code quality on every commit
+- 📱 **Responsive**: Built with mobile-first design principles
+- ⚡️ **Performance**: Optimized for fast loading and smooth interactions
 
-- ⚡️ [Svelte](https://svelte.dev/) - Svelte is a radical new approach to building user interfaces. Whereas traditional frameworks like React and Vue do the bulk of their work in the browser, Svelte shifts that work into a compile step that happens when you build your app.
-- ⚡️ [SvelteKit](https://kit.svelte.dev/) - SvelteKit is built on Svelte, a UI framework that uses a compiler to let you write breathtakingly concise components that do minimal work in the browser, using languages you already know — HTML, CSS and JavaScript. It's a love letter to web development.
-- 👷 [Vite](https://vitejs.dev/) - Vite
-  Next Generation Frontend Tooling
-- 🧁 [TailwindCSS v3](https://tailwindcss.com/) - A utility-first CSS framework packed with classes
-- ✨ [TypeScript](https://www.typescriptlang.org/) - TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.
-- 🎉 [Sass](https://sass-lang.com/) - Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.
-- 📏 [ESLint](https://eslint.org/) — Find and fix problems in your JavaScript code.
-- 🦋 [Prettier](https://prettier.io/) — An opinionated code formatter.
-- 🐶 [Husky](https://github.com/typicode/husky) - Husky improves your commits and more 🐶 woof!
-- 🐶 [Lint Staged](https://github.com/okonet/lint-staged) — Run linters against staged git files and don't let 💩 slip into your code base!
+## 🚀 Features
 
-The rest of the Starter is based off of the Svelte Skeleton Project.
+- ⚡️ [SvelteKit](https://kit.svelte.dev/) - The official application framework for Svelte
+- 🎨 [TailwindCSS v4](https://tailwindcss.com/) - A utility-first CSS framework
+- 📘 [TypeScript](https://www.typescriptlang.org/) - Type-safe JavaScript
+- 🎨 [Sass](https://sass-lang.com/) - CSS extension language
+- 🧪 [Playwright](https://playwright.dev/) - End-to-end testing
+- 🧪 [Vitest](https://vitest.dev/) - Unit testing
+- 📏 [ESLint](https://eslint.org/) - Code linting
+- 🦋 [Prettier](https://prettier.io/) - Code formatting
+- 🐶 [Husky](https://github.com/typicode/husky) - Git hooks
+- 🧹 [Lint Staged](https://github.com/okonet/lint-staged) - Run linters on staged files
 
-## ⚡️ Quick Start
+## 🚀 Quick Start
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/project?template=https://github.com/MikevPeeren/sveltekit-typescript-tailwindcss-sass-starter)
 
-## 🚀 Getting Started
+## 🛠️ Installation
 
-Run the following command to create a new project with this Starter:
-
-```
+```bash
+# Clone the repository
 git clone git@github.com:MikevPeeren/sveltekit-typescript-tailwindcss-sass-starter.git
 # or
 npx degit git@github.com:MikevPeeren/sveltekit-typescript-tailwindcss-sass-starter.git
+
+# Install dependencies
+yarn install
+# or
+npm install
 ```
 
-Once the project and dependencies are finished installing, you can navigate to that directory and start up the development server with:
+## 🚀 Development
 
-```
+Start the development server:
+
+```bash
 yarn dev
 # or
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see your new project!
+Open [http://localhost:3000](http://localhost:3000) to view your application.
 
-## 📚 Learn More About Svelte and SvelteKit
+## 📝 Available Scripts
 
-To learn more about Svelte and SvelteKit, take a look at the following resources:
+- `yarn dev` - Start development server
+- `yarn build` - Build for production
+- `yarn preview` - Preview production build
+- `yarn test` - Run Playwright end-to-end tests
+- `yarn test:unit` - Run Vitest unit tests
+- `yarn check` - Type-check your code
+- `yarn check:watch` - Type-check your code in watch mode
+- `yarn lint` - Lint your code
+- `yarn format` - Format your code
 
-- [Svelte Documentation](https://svelte.dev/docs) - learn about Svelte features.
-- [SvelteKit Documentation](https://kit.svelte.dev/docs/introduction) - learn about SvelteKit features.
-- [Learn Svelte](https://svelte.dev/tutorial/basics) - an interactive Svelte tutorial.
+## 📁 Project Structure
 
-You can check out [the SvelteKit GitHub repository](https://github.com/sveltejs/kit) - your feedback and contributions are welcome!
+```
+├── src/
+│   ├── routes/          # SvelteKit routes
+│   ├── app.html         # HTML template
+│   ├── app.scss         # Global styles
+│   └── app.d.ts         # TypeScript declarations
+├── static/              # Static assets
+├── tests/               # Test files
+└── public/              # Public assets
+```
+
+## 🧪 Testing
+
+This starter includes both end-to-end and unit testing setup:
+
+- **End-to-end Testing**: Uses Playwright for browser testing
+- **Unit Testing**: Uses Vitest for component and utility testing
+
+Run tests with:
+```bash
+# Run end-to-end tests
+yarn test
+
+# Run unit tests
+yarn test:unit
+```
+
+## 🎨 Styling
+
+This starter combines the power of TailwindCSS with Sass:
+
+- Use TailwindCSS utility classes directly in your components
+- Create custom styles with Sass in `src/app.scss`
+- Leverage TailwindCSS's responsive design utilities
+- Use Sass variables and mixins for complex styling needs
+
+## 🔧 Configuration
+
+The project includes several configuration files:
+
+- `tailwind.config.js` - TailwindCSS configuration
+- `tsconfig.json` - TypeScript configuration
+- `svelte.config.js` - SvelteKit configuration
+- `.eslintrc.cjs` - ESLint configuration
+- `.prettierrc` - Prettier configuration
+
+## 📚 Learn More
+
+- [SvelteKit Documentation](https://kit.svelte.dev/docs/introduction)
+- [Svelte Documentation](https://svelte.dev/docs)
+- [TailwindCSS Documentation](https://tailwindcss.com/docs)
+- [TypeScript Documentation](https://www.typescriptlang.org/docs/)
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- [SvelteKit](https://kit.svelte.dev/) team for the amazing framework
+- [TailwindCSS](https://tailwindcss.com/) team for the utility-first CSS framework
+- All contributors who have helped improve this starter
