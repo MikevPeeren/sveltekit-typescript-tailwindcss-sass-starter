@@ -2261,10 +2261,10 @@ svelte-check@^4.2.1:
     picocolors "^1.0.0"
     sade "^1.7.4"
 
-svelte@^5.33.4:
-  version "5.33.4"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-5.33.4.tgz#5609981a0841da7ee91a0d9672a00784c26d2605"
-  integrity sha512-w2+ksGaZRgZgQdP2dtOjlpkdQwX3ftc8+BH/W9XgX6rP1FZHCeuXQnmyeHPFLbG2Gjj9pp2ak8iIeVure+n7IA==
+svelte@^5.33.5:
+  version "5.33.5"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-5.33.5.tgz#d3e4492a625b05cd5eb4de5a2d7810afcb37f5de"
+  integrity sha512-ZQxq/363Axt5wzwMsDG4Grs9sO8+j3EzYvaPgvZQZ/h/vKC1seNC3YDWFHtwS5uz1n2Z8Q1zwfSnahkvSXTFOQ==
   dependencies:
     "@ampproject/remapping" "^2.3.0"
     "@jridgewell/sourcemap-codec" "^1.5.0"
