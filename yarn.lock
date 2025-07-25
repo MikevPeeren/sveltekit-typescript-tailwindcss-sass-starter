@@ -544,10 +544,10 @@
   dependencies:
     import-meta-resolve "^4.1.0"
 
-"@sveltejs/kit@^2.25.1":
-  version "2.25.1"
-  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-2.25.1.tgz#8d01ed7da61ed8bc42f4230eef688555fc17ec71"
-  integrity sha512-8H+fxDEp7Xq6tLFdrGdS5fLu6ONDQQ9DgyjboXpChubuFdfH9QoFX09ypssBpyNkJNZFt9eW3yLmXIc9CesPCA==
+"@sveltejs/kit@^2.26.0":
+  version "2.26.0"
+  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-2.26.0.tgz#4a701d0fe69a7f0f5d819c54a1f7f2c7a137f999"
+  integrity sha512-TUxMYoK6Yim4uRIW0L7TXtlEtyLchy90PmInI7d1lPAPMchkBEvN3nVMkn5iTMUobxdLE5nR/YEU/4aYqezMuQ==
   dependencies:
     "@sveltejs/acorn-typescript" "^1.0.5"
     "@types/cookie" "^0.6.0"
