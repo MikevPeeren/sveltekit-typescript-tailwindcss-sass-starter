@@ -79,7 +79,7 @@
 		"typescript": "^5.9.2",
 		"vite": "^6.3.5",
 		"vitest": "^3.2.4",
-		"@tailwindcss/postcss": "^4.1.11"
+		"@tailwindcss/postcss": "^4.1.12"
 	},
 	"type": "module",
 	"dependencies": {
