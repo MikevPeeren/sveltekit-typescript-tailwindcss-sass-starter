@@ -569,10 +569,10 @@
   dependencies:
     import-meta-resolve "^4.1.0"
 
-"@sveltejs/kit@^2.37.0":
-  version "2.37.0"
-  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-2.37.0.tgz#572ba3a2352f6bf15f75e76d2d4d5ad05520dba1"
-  integrity sha512-xgKtpjQ6Ry4mdShd01ht5AODUsW7+K1iValPDq7QX8zI1hWOKREH9GjG8SRCN5tC4K7UXmMhuQam7gbLByVcnw==
+"@sveltejs/kit@^2.37.1":
+  version "2.37.1"
+  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-2.37.1.tgz#de858dc43933081fdc0a0ef778f8064f890ae1ea"
+  integrity sha512-4T9rF2Roe7RGvHfcn6+n92Yc2NF88k7ljFz9+wE0jWxyencqRpadr2/CvlcQbbTXf1ozmFxgMO6af+qm+1mPFw==
   dependencies:
     "@standard-schema/spec" "^1.0.0"
     "@sveltejs/acorn-typescript" "^1.0.5"
@@ -1818,14 +1818,7 @@ loupe@^3.1.4:
   resolved "https://registry.yarnpkg.com/loupe/-/loupe-3.1.4.tgz#784a0060545cb38778ffb19ccde44d7870d5fdd9"
   integrity sha512-wJzkKwJrheKtknCOKNEtDK4iqg/MxmZheEMtSTYvnzRdEYaZzmgH976nenp8WdJRdx5Vc1X/9MO0Oszl6ezeXg==
 
-magic-string@^0.30.11, magic-string@^0.30.17, magic-string@^0.30.5:
-  version "0.30.17"
-  resolved "https://registry.yarnpkg.com/magic-string/-/magic-string-0.30.17.tgz#450a449673d2460e5bbcfba9a61916a1714c7453"
-  integrity sha512-sNPKHvyjVf7gyjwS4xGTaW/mCnF8wnjtifKBEhxfZ7E/S8tQ0rssrwGNn6q8JH/ohItJfSQp9mBtQYuTlH5QnA==
-  dependencies:
-    "@jridgewell/sourcemap-codec" "^1.5.0"
-
-magic-string@^0.30.18:
+magic-string@^0.30.11, magic-string@^0.30.17, magic-string@^0.30.18, magic-string@^0.30.5:
   version "0.30.18"
   resolved "https://registry.yarnpkg.com/magic-string/-/magic-string-0.30.18.tgz#905bfbbc6aa5692703a93db26a9edcaa0007d2bb"
   integrity sha512-yi8swmWbO17qHhwIBNeeZxTceJMeBvWJaId6dyvTSOwTipqeHhMhOrz6513r1sOKnpvQ7zkhlG8tPrpilwTxHQ==
