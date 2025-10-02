@@ -564,10 +564,10 @@
   dependencies:
     import-meta-resolve "^4.1.0"
 
-"@sveltejs/kit@^2.43.6":
-  version "2.43.6"
-  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-2.43.6.tgz#72e4e305c93f76c75353547a0aeb0dfad9d5a046"
-  integrity sha512-Ch9YlU2UvQmkF3Gr7ufJxfMhYbtnau4ZemRdpRNX602chlFfEWGO1DplQxkF0TWsL+8sWhGwXOU+k6/gd83JgQ==
+"@sveltejs/kit@^2.43.7":
+  version "2.43.7"
+  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-2.43.7.tgz#2111a317e802b0f74983e1b38b7821be48cf4ee8"
+  integrity sha512-6trpyltB9XZNkM8cfVHG9U2urAH4NPD7UeO0wiBvZjD8gHj6w9bVeWnBQgnO8LPNpzOhSlwnZDk355OOAa/9Zw==
   dependencies:
     "@standard-schema/spec" "^1.0.0"
     "@sveltejs/acorn-typescript" "^1.0.5"
