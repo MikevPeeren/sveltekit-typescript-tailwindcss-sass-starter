@@ -59,7 +59,7 @@
 		"@eslint/js": "^9.37.0",
 		"@playwright/test": "^1.56.0",
 		"@sveltejs/adapter-auto": "^5.0.0",
-		"@sveltejs/kit": "^2.43.7",
+		"@sveltejs/kit": "^2.44.0",
 		"@typescript-eslint/eslint-plugin": "^8.45.0",
 		"@typescript-eslint/parser": "^8.45.0",
 		"autoprefixer": "^10.4.21",
