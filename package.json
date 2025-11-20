@@ -71,7 +71,7 @@
 		"postcss": "^8.5.6",
 		"prettier": "^3.6.2",
 		"prettier-plugin-svelte": "^3.4.0",
-		"sass": "^1.94.1",
+		"sass": "^1.94.2",
 		"svelte": "^5.43.9",
 		"svelte-check": "^4.3.4",
 		"tailwindcss": "^4.1.17",
