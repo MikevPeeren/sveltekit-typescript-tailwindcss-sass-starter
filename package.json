@@ -60,7 +60,7 @@
 		"@playwright/test": "^1.57.0",
 		"@sveltejs/adapter-auto": "^5.0.0",
 		"@sveltejs/kit": "^2.49.2",
-		"@typescript-eslint/eslint-plugin": "^8.50.0",
+		"@typescript-eslint/eslint-plugin": "^8.50.1",
 		"@typescript-eslint/parser": "^8.50.1",
 		"autoprefixer": "^10.4.23",
 		"eslint": "^9.39.2",
