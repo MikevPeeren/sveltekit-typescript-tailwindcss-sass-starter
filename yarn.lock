@@ -523,17 +523,17 @@
   dependencies:
     import-meta-resolve "^4.1.0"
 
-"@sveltejs/kit@^2.49.4":
-  version "2.49.4"
-  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-2.49.4.tgz#f1ddd9e5592a05efb8c93d061e1ee890c11473a8"
-  integrity sha512-JFtOqDoU0DI/+QSG8qnq5bKcehVb3tCHhOG4amsSYth5/KgO4EkJvi42xSAiyKmXAAULW1/Zdb6lkgGEgSxdZg==
+"@sveltejs/kit@^2.49.5":
+  version "2.49.5"
+  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-2.49.5.tgz#da173805592e3ebd483bb77d45ef424078f0aaff"
+  integrity sha512-dCYqelr2RVnWUuxc+Dk/dB/SjV/8JBndp1UovCyCZdIQezd8TRwFLNZctYkzgHxRJtaNvseCSRsuuHPeUgIN/A==
   dependencies:
     "@standard-schema/spec" "^1.0.0"
     "@sveltejs/acorn-typescript" "^1.0.5"
     "@types/cookie" "^0.6.0"
     acorn "^8.14.1"
     cookie "^0.6.0"
-    devalue "^5.3.2"
+    devalue "^5.6.2"
     esm-env "^1.2.2"
     kleur "^4.1.5"
     magic-string "^0.30.5"
@@ -1123,10 +1123,10 @@ detect-libc@^2.0.3:
   resolved "https://registry.yarnpkg.com/detect-libc/-/detect-libc-2.0.3.tgz#f0cd503b40f9939b894697d19ad50895e30cf700"
   integrity sha512-bwy0MGW55bG41VqxxypOsdSdGqLwXPI/focwgTYCFMbdUiBAxLg9CFzG08sz2aqzknwiX7Hkl0bQENjg8iLByw==
 
-devalue@^5.3.2, devalue@^5.5.0:
-  version "5.5.0"
-  resolved "https://registry.yarnpkg.com/devalue/-/devalue-5.5.0.tgz#2b7d3959496773dfc6d83dbc909af3ddb65ba6bb"
-  integrity sha512-69sM5yrHfFLJt0AZ9QqZXGCPfJ7fQjvpln3Rq5+PS03LD32Ost1Q9N+eEnaQwGRIriKkMImXD56ocjQmfjbV3w==
+devalue@^5.5.0, devalue@^5.6.2:
+  version "5.6.2"
+  resolved "https://registry.yarnpkg.com/devalue/-/devalue-5.6.2.tgz#931e2bb1cc2b299e0f0fb9e4e5be8ebf521a25b8"
+  integrity sha512-nPRkjWzzDQlsejL1WVifk5rvcFi/y1onBRxjaFMjZeR9mFpqu2gmAZ9xUB9/IEanEP/vBtGeGganC/GO1fmufg==
 
 electron-to-chromium@^1.5.263:
   version "1.5.267"
